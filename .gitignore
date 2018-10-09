@@ -1,0 +1,11 @@
+*.chalice/deployments/
+*.chalice/venv/
+*.idea*
+*.project*
+*__pycache__*
+*__pycache__/*.pyc
+*.idea*
+*.project*
+*.pytest_cache*
+*.coverage*
+*.mypy_cache*
