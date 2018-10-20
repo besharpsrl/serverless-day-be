@@ -44,7 +44,7 @@ Infine bisogna creare un app client e prendere nota del suo ID. Non bisogna far 
 
 ### Tabelle di DynamoDB
 
-Servirà anche una tabella di DynamoDB per contenere i metadati e le informazioni di share dei file. Procediamo quindi alla creazione di una tabella lasciando i valori di default e specificando “shareID” come chiave di partizione primaria.
+Servirà anche una tabella di DynamoDB per contenere i metadati e le informazioni di share dei file. Procediamo quindi alla creazione di una tabella lasciando i valori di default e specificando "owner" con sort key "share_id" come chiave di partizione primaria. Va aggiunto un indice globale "share_id"
 
 ![Dettagli tabella DynamoDB](https://blog.besharp.it/wp-content/uploads/2018/09/SS_19-09-2018_171125.png)
 
